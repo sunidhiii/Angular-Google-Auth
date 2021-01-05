@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Google-Auth"
+    }
+  },
+  "defaultProject": "Google-Auth",
+  "cli": {
+    "analytics": "ea36bc68-5cf1-4428-a805-f678de97685e"
+  }
 }

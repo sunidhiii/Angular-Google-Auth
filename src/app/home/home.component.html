@@ -1,0 +1,15 @@
+
+
+<span style="color: red;" *ngIf="message">{{message}}</span>
+<input #file type="file" accept="image/*" (change)="preview(file.files)" />
+<img [src]="imgURL" height="200"  *ngIf="imgURL" />
+<lib-ngx-image-zoom
+    [thumbImage]="myThumbnail"
+    [fullImage]="myFullresImage"
+    [magnification]="2"
+    [enableScrollZoom]="true"
+    [enableLens]="true"
+    [lensWidth]="200"
+    [zoomMode]="'hover'"
+
+></lib-ngx-image-zoom>
